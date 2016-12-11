@@ -1,13 +1,14 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
 
-body {
-	font-family: 'Lato', sans-serif;
-	color: #747704;
-	font-weight: 300;
-	box-sizing: border-box;
-}
-.text-muted {
-	color: #BCBBBB;
-}
+
+/*Header*/
+
 .text-thin {
 	font-weight: 100;
 }
@@ -17,14 +18,30 @@ body {
 .title-logo {
 	margin-top: 20px;
 }
+
+/*End of Header*/
+
+/*Body*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+  margin: 0 10px 0 10px;
+}
+.text-muted {
+  color: #BCBBBB;
+}
+
+
+}
 hr {
     border: none;
-    height: 3px;
+    height: 5px;
     /* Set the hr color */
     color: #BCBBBB; /* old IE */
     background-color: #BCBBBB; /* Modern Browsers */
 }
-h3 {
+h4 {
   font-weight: 800;
 }
 #social {
@@ -37,11 +54,4 @@ h3 {
 #social a:last-of-type {
   margin: 0;
 }
-/*Footer*/
-[class*="zocial-"]:before {
-  color: black;
-  display: inline-block;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  width: 2em;
-}
+
