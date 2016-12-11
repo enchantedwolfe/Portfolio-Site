@@ -1,0 +1,47 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+	box-sizing: border-box;
+}
+.text-muted {
+	color: #BCBBBB;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-super {
+	font-size: 60px;
+}
+.title-logo {
+	margin-top: 20px;
+}
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #BCBBBB; /* old IE */
+    background-color: #BCBBBB; /* Modern Browsers */
+}
+h3 {
+  font-weight: 800;
+}
+#social {
+	line-height: 2em;
+	text-align: center;
+}
+#social a {
+  margin: 0 1em 0 0;
+}
+#social a:last-of-type {
+  margin: 0;
+}
+/*Footer*/
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
