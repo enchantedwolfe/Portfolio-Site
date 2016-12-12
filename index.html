@@ -1,110 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
- 
   <head>
+   
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Puppy Portfolio</title>
     
+    <title>Puppy Portfolio</title>
+   
       <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-      
+     
       <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 
   </head>
-
+ 
   <body><!--start of body-->
    
-    <header><!--start of header-->
-          <div class="row"><!--start of row-->
-            <div class="col-md-6">
-              <img class="title-logo" src="images/animals-q-c-100-100-5.jpg" alt="title-logo">
-            </div>
-            <div class="col-md-6 text-right text-uppercase">
-              <h1 class="title-super text-thin">Jane Doette</h1>
-              <h4>Front-end Ninja</h4>
-            </div>
-          </div><!--end of row-->
-      </header><!--end of header-->
+    <div class="container"><!--start of container-->
      
       <article><!--start of article-->
+          
+      <header><!--start of header-->
+      
+          <div class="row"><!--start of row-->
+            <div class="col-md-6">
+              <img class="title-logo" src="images/logo.png" alt="title-logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+              <h1 class="title-super text-thin">Christy Wolfe</h1>
+              <h4>Front-end Developer</h4>
+            </div>
+         
+          </div><!--end of row-->
+     
+      </header><!--end of header-->
+      
+
           <div class="row"><!--start of row-->
             <div class="col-md-12">
               <hr>
             </div>
+         
           </div><!--end of row-->
        
         <section id="responsive-images"><!--start of section-->
             
             <div class="row"><!--start of row-->
-              <div>
-                <figure align="center">
+              <div class="col-md-12">
+                <figure>
                   <picture>
                     <source media="(min-width: 750px)" srcset="images/labrador-retriever-1600_large_2x.jpg 2x, images/labrador-retriever-800_large_1x.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/horses_medium.jpg" />
-                    <img src="images/labrador-retriever.jpg" alt="Main puppy image!">
+                    <source media="(min-width: 500px)" srcset="images/labrador-retriever_medium.jpg" />
+                    <source media="(min-width: 400px)" srcset="images/labrador-retriever_small.jpg">
+                    <img class="img-responsive center-block" src="images/labrador-retriever.jpg" alt="Main puppy image!" style="width: 680px;">
                   </picture>
                 </figure>
               </div>
             </div><!--end of row-->
-            
+           
             <div class="row"><!--start of row-->
               <div class="col-md-12">
                 <h2 class="text-muted">Featured Work</h2>
               </div>
             </div><!--end of row-->
+
+            <br>
             
             <div class="row text-center"><!--start of row-->
-              
-              <div class="col-md-4">
-                <figure align="center">
+              <div class="col-sm-6 col-md-4">
+                <figure>
                   <picture>
-                    <source media="(min-width: 750px)" srcset="images/horses-1600_large_2x.jpg 2x, images/horses-800_large_1x.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/horses_medium.jpg" />
-                    <img src="images/puppy-pictures341.jpg" alt="Puppy1">
+                    <source media="(min-width: 750px)" srcset="images/puppy-pictures341-1600_large_2x.jpg 2x, images/puppy-pictures341-800_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/puppy-pictures341_medium.jpg" />
+                    <source media="(min-width: 400px)" srcset="images/puppy-pictures341_small.jpg">
+                    <img class="img-responsive center-block" src="images/puppy-pictures341.jpg" alt="Puppy1">
+                  </picture>
                     <h3 class="text-uppercase">Puppy1</h3>
-                    <figcaption>https://github.com/udacity/appify</figcaption>
-                  </picture>
+                    <figcaption>
+                      <a href="#">LINK
+                      </a>
+                    </figcaption>
                 </figure>
               </div>
-              
-              <div class="col-md-4">
-                <figure align="center">
+             
+              <div class="col-sm-6 col-md-4">
+                <figure>
                   <picture>
-                    <source media="(min-width: 750px)" srcset="images/horses-1600_large_2x.jpg 2x, images/horses-800_large_1x.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/horses_medium.jpg" />
-                    <img src="images/hi-there--wallpaper-cuteimages.net.jpg" alt="Puppy2">
+                    <source media="(min-width: 750px)" srcset="images/nose-1600_large_2x.jpg 2x, images/nose-800_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/nose_medium.jpg" />
+                    <source media="(min-width: 400px)" srcset="images/nose_small.jpg">
+                    <img class="img-responsive center-block" src="images/nose.jpg" alt="Puppy2">
+                  </picture>
                     <h3 class="text-uppercase">Puppy2</h3>
-                    <figcaption>https://github.com/udacity/Sunflower</figcaption>
-                  </picture>
+                    <figcaption>
+                      <a href="#">LINK
+                      </a>
+                    </figcaption>
                 </figure>
               </div>
-              
-              <div class="col-md-4">
-                <figure align="center">
+             
+              <div class="col-sm-6 col-md-4">
+                <figure>
                   <picture>
-                    <source media="(min-width: 750px)" srcset="images/horses-1600_large_2x.jpg 2x, images/horses-800_large_1x.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/horses_medium.jpg" />
-                    <img src="images/Puppy1.jpg" alt="Puppy3">
-                    <h3 class="text-uppercase">Puppy3</h3>
-                    <figcaption>https://github.com/udacity/Bokeh</figcaption>
+                    <source media="(min-width: 750px)" srcset="images/Puppy1-1600_large_2x.jpg 2x, images/Puppy1-800_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/Puppy1s_medium.jpg" />
+                    <source media="(min-width: 400px)" srcset="images/Puppy1_small.jpg">
+                    <img class="img-responsive center-block" src="images/Puppy1.jpg" alt="Puppy3">
                   </picture>
+                    <h3 class="text-uppercase">Puppy3</h3>
+                    <figcaption>
+                      <a href="#">LINK
+                      </a>
+                    </figcaption>
                 </figure>
               </div>
-           
             </div><!--end of row-->
            
             <div class="row"><!--start of row-->
             <div class="col-md-12">
               <hr>
-           
             </div>
+         
           </div><!--end of row-->
-       
+      
         </section><!--end of section-->
      
       </article><!--end of article-->
@@ -116,9 +138,30 @@
         <a href="https://plus.google.com/share?url=https://github.com/udacity/responsive-images" class="zocial-googleplus">Google+</a>
         <a href="http://digg.com/submit?phase=2&url=https%3A%2F%2Fgithub.com%2Fudacity%2Fresponsive-images&title=Udacity%20nano%20course%3A%20Responsive%20Images&bodytext=Responsive%20images%20for%20your%20sites%20and%20web%20apps&topic=tech_news" class="zocial-digg">Digg</a>
       </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            <a href="https://jigsaw.w3.org/css-validator/">
+            <img src="images/valid_css_blue.png" alt="Valid CSS!" />
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            <a href="https://validator.w3.org/">
+              <img src="images/valid_html_blue.png" alt="Valid HTML 5!">
+            </a>
+          </p>
+        </div>
+      </div>
    
     </footer><!--end of footer-->
- 
+  
+    </div><!--end of container-->
+  
   </body><!--end of body-->
 
 </html>
